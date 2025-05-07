@@ -1,0 +1,25 @@
+{
+  "name": "napi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.2.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "body-parser": "^1.20.2",
+    "cors": "2.8.1",
+    "express": "^4.19.2",
+    "mssql": "^6.2.1"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.40.0",
+    "nodemon": "3.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
